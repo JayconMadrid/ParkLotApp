@@ -3,8 +3,24 @@
 <title>Parklot Main Page</title>
 <body>
 
-    <h1>This is Homepage version 2</h1>
-    <h1>we are Creating an App</h1>
-
+<div id="root" class="d-flex justify-content-center">
+   <div id="toDoApp">
+     <label id="toDoApp__Title" for="basic-input">
+       <h2 class="text-monospace">Add new things To Do:</h2>
+     </label>
+     <div id="toDoApp__Add" class="input-group">
+       <input id="toDoApp__Add__text-input" class="form-control" type="text" placeholder="Thing to do" value=""/>
+       <div class="input-group-append">
+         <button id="toDoApp__Add__add-btn" class="btn btn-outline-primary" onClick="">
+           Add
+         </button>
+       </div>
+     </div>
+     <div id="toDoApp__List"></div>
+   </div>
+ </div>
 </body>
+<script src="./js/js.js">
+
+   </script>
 </html>
